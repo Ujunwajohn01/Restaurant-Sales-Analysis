@@ -80,14 +80,30 @@ chain management
 
 **Data Source**
 
-- **Source:** [Maven Analytics website](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=restaurant%20) designed for practice purposes.
+- **Source:** [Maven Analytics website](https://mavenanalytics.io/data-playground?order=date_added%2Cdesc&search=restaurant%20) designed for practice purposes. This dataset consists of a quarter's worth of orders from a fictitious restaurant serving international cuisine, including the date and time of each order, the items ordered, and additional details on the type, name and price of the items.
+
+- **Tools Used:** Excel 
+
 - **Sheets Used:**
+   - **Order_Details:** contains order IDs, dates, times, item IDs, and pricing
 
-**a.Order_Details:** contains order IDs, dates, times, item IDs, and pricing
+  - **Menu Items:** includes item names, categories, and prices
+    
+- **Total Records:** 12,235 orders covering a full calendar year
+  
+- **Columns include:** Order_id, Order_Date, Order_Time, Item_Name, Category, Price, Hour, etc.
 
-**b.Menu Items:** includes item names, categories, and prices
-- **Total Records:** 12,097 orders covering a full calendar year
-- **Fields include:** Order_id, Order_Date, Order_Time, Item_Name, Category, Price, Hour, etc.
+### Data Dictionary
+- **menu_item_id:**	Unique ID of a menu item
+- **item_name:**	Name of a menu item
+- **category:**	Category or type of cuisine of the menu item
+- **price:**	Price of the menu item (US Dollars $)
+- **order_details_id:**	Unique ID of an item in an order
+- **order_id:**	ID of an order
+- **order_date:**	Date an order was put in (MM/DD/YY)
+- **order_time**:	Time an order was put in (HH:MM:SS AM/PM)
+- **item_id:**	Matches the menu_item_id in the menu_items table
+
 
 ### KEY DATA ANALYSIS
 
