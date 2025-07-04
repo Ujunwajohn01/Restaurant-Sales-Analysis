@@ -173,6 +173,7 @@ better scheduling and inventory planning.
 ![](https://github.com/Ujunwajohn01/Restaurant-Sales-Analysis/blob/main/Most%20Ordered%20Item.png)
 
 ![](https://github.com/Ujunwajohn01/Restaurant-Sales-Analysis/blob/main/Least%20Ordered%20Item.png)
+
 **Findings:**
 - Most ordered item: Hamburger (American category)
 - Least ordered item: Chicken Tacos (Mexican category)
